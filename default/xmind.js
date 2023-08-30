@@ -5,7 +5,7 @@
 
 
  [rewrite_local]
- ^https?:\/\/www\.xmind\.(cn|net|app)\/.+\/devices url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/Xmind.js
+ ^https?:\/\/www\.xmind\.(cn|net|app)\/.+\/devices url script-response-body https://raw.githubusercontent.com/cnzakii/Rewrite/main/default/xmind.js
 
  [mitm]
  hostname = www.xmind.*
